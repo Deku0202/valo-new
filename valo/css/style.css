@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 252, 240);
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#continer {
+  position: relative;
+}
+
+.row {
+  width: 100%;
+}
+
+#box {
+  border: 2px solid black;
+  height: 400px;
+  margin-top: 0;
+  margin-right: 10px;
+  background-color: cornsilk;
+  color: black;
+  padding: 220px 10px 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px 50px 30px;
+  
+  
+}
+
+span {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 2em;
+}
+
+span#mmtgay {
+  line-height: 0;
+}
+
+#img1, #img2, #img3, #img4, #img5  {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  height: 191px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+      float: left;
+      width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/  
+@media (min-width: 762px) and (max-width: 991px) {
+  .col-lg-6 {
+      float: left;
+      width: 50%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 761px) {
+  .col-sm-12 {
+      float: left;
+      width: 100%;
+  }
+}
